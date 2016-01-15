@@ -114,7 +114,7 @@ DROP USER Prod2;
 DROP USER Ventas1;
 DROP USER Ventas2;
 DROP USER Ventas3;
-DROP USER Director CASCADE;  (El CASCADE elimina la tabla creada anteriormente)
+DROP USER Director CASCADE;  --(El CASCADE elimina la tabla creada anteriormente)
 DROP USER Generico1;
 DROP USER Generico2;
 DROP ROLE Produccion;
