@@ -9,4 +9,5 @@ Solución a las prácticas de Administración de Bases de Datos de 2º Administr
  * **Práctica 3**. [Código](solucion-practica03.sql)
  * **Práctica 4**. [Código](solucion-practica04.sql)
  * **Práctica 5**. [Código](solucion-practica05.sql)
+ * **Práctica 6**. [Código](solucion-practica06.sql)
  
