@@ -59,7 +59,7 @@ COMMIT;
 --[4]	Usando la misma cuenta Director, dar permiso para consultar la tabla de personal a los usuarios de Producción y Ventas. Además permitir actualizar las columnas nombre y teléfono. Permitir además que los usuarios de producción y ventas puedan otorgar dichos privilegios a otros usuarios.
 GRANT select,update (nombre,telefono) 
 	ON Personal 
-	TO PROD1,PROD2,VENTAS1,VENTAS2,VENTAS3 
+	TO PROD1,PROD2,VENTAS1,VENTAS2,VENTAS3  --No se puede usar GRANT OPTION con Roles
 	WITH GRANT OPTION;
 
 --[5]	Dar privilegio de consulta sobre dicha tabla al usuario Generico1 y permitir que dicho usuario pueda conceder a su vez dicho privilegio.
@@ -70,7 +70,7 @@ CONNECT / AS SYSDBA
 ALTER USER Generico1 ACCOUNT UNLOCK;
 
 --[7]	Conectar con el usuario Generico1 y modificar su propia contraseña para que sea Caramelo
-CONNECT Generico1 	(meter contraseña 12345)
+CONNECT Generico1 	--(meter contraseña 12345)
 ALTER USER Generico1 IDENTIFIED BY Caramelo;
 
 --[8]	Mostrar todos los datos de la tabla Personal del esquema Director
