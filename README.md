@@ -1,6 +1,6 @@
-# Prácticas de Administración de Bases de Datos de Jorge Sánchez
+# Prácticas de Administración de Bases de Datos (curso 2015-16) de Jorge Sánchez
 
-Solución a las prácticas de Administración de Bases de Datos de 2º Administración de Sistemas Informáticos en red impartidas por Jorge Sánchez.
+Solución a las prácticas de Administración de Bases de Datos de 2º Administración de Sistemas Informáticos en red impartidas por Jorge Sánchez, correspondientes al curso 2015/16
 
 ## Prácticas de configuración de Oracle
  * **Práctica 2**. [Código](solucion-practica02.sql)
